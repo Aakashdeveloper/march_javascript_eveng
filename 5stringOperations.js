@@ -70,3 +70,74 @@ city.slice(1).toLowerCase()
 "msterdam"
 city.charAt(0).toUpperCase()+city.slice(1).toLowerCase()
 "Amsterdam"
+
+var city = "Amsterdam"
+undefined
+city.slice(1)
+"msterdam"
+city.slice(2,5)
+"ste"
+city.slice(2,6)
+"ster"
+city.slice(6,2)
+""
+city.slice(2,-1)
+"sterda"
+city.slice(-2)
+"am"
+city.slice(-4,-1)
+"rda"
+city.slice(-1,-4)
+""
+city.slice(-1,2)
+""
+
+var city = "Amsterdam"
+undefined
+city.slice(0)
+"Amsterdam"
+city.slice(0,-1)
+"Amsterda"
+city.slice(1)
+"msterdam"
+city.slice(0,-1)
+"Amsterda"
+city.slice(0,-2)
+"Amsterd"
+
+var a = "i am learning javascript"
+undefined
+a.replace('javascript','JS')
+"i am learning JS"
+var a = "javascript i am learning javascript"
+undefined
+a.replace('javascript','JS')
+"JS i am learning javascript"
+a.replace(/javascript/g,'JS')
+"JS i am learning JS"
+
+
+var name = " Bhumika .   "
+undefined
+name.replace(' ','')
+"Bhumika .   "
+name.replace(/ /g,'')
+"Bhumika."
+
+var a = "Hi "
+var b = "javascript"
+var c = "code"
+a.concat(b,c)
+
+var a = "Hi "
+var b = "javascript"
+var c = "code"
+a.concat(b,c)
+"Hi javascriptcode"
+b.concat(c,a)
+"javascriptcodeHi "
+var a = 10
+undefined
+a.toString()
+"10"
+
