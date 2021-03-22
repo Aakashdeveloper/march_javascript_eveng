@@ -1,0 +1,20 @@
+var movies = [
+    {
+        "name":"Avengers",
+        "rating":4.5,
+        "lang":"Eng"
+    },
+    {
+        "name":"JabWeMet",
+        "rating":4.5,
+        "lang":"Hindi"
+    },
+    {
+        "name":"Avengers",
+        "rating":4.5,
+        "lang":"Eng"
+    }
+]
+
+movies[0].name
+"Avengers"

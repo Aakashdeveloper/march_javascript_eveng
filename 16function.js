@@ -41,11 +41,18 @@ isEven(45)
 
 //////Rest//////
 function sum(...args){
-    console.log(args)
+    let sum = 0;
+    for(arg of args){
+        sum += arg
+    }
+    return sum
 }
 
 sum(1,3,4,5,6)
 [1, 3, 4, 5, 6]
+
+sum(4,2,6,7,3,4,5,6,7)
+44
 
 
 function test(a,b){
@@ -54,3 +61,14 @@ function test(a,b){
 undefined
 test(1,2)
 2
+
+/////method//////
+var add = function (a,b){
+    return a+b
+}
+
+add(1,2)
+3
+
+//////arrow////
+let add = (a,b) => { return a+b}

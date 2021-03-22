@@ -20,25 +20,24 @@ Ecma 7
 > Date
 > regex
 > array
-////////////////
-
 > Functions
 > loops
 > Es6
     > maps,filter
-> Clousers
-> Hoisting
+> object 
 > JSON
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-> object 
 > this 
 > Prototypes
 > Es6
     > classes
+> Clousers
+> Hoisting
+////////////////
 > DoM
 > Calc
 > currenyConvertor
@@ -46,11 +45,13 @@ Ecma 7
 > async await
 > screen
 > Geolocation
+
 > Form validation
 > Event
 > Dynamic DropDown
 > Progress bar
 > Call/Apply
+
 > Baisc Jquery
 > Weather application
 > ajax
@@ -58,3 +59,12 @@ Ecma 7
 > fabonicci
 > factorial
 > palindrome
+
+
+/////////
+step for package.JSON
+/////////////
+> install nodejs(https://nodejs.org/en/)
+> go inside the folder with terminal
+> type npm init -y
+> npm i @babel/core @babel/preset-env @babel/register
