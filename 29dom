@@ -1,0 +1,10 @@
+document.getElementsByTagName('h1')[0].innerText
+"I'm AAKASH HANDA"
+document.getElementsByTagName('h1')[0].innerText="I m from nareshIT"
+"I m from nareshIT"
+document.getElementsByTagName('h1')[0].style.color="Red"
+"Red"
+document.getElementsByClassName('scroll')
+HTMLCollection(5) [a.scroll, a.scroll, a.scroll, a.scroll, a.scroll]
+document.getElementsByClassName('scroll')[0].innerText="Tech"
+"Tech"
