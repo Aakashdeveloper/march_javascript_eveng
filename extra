@@ -44,9 +44,10 @@ Ecma 7
 > async await
 > Geolocation
 > screen
-////////////////
 > Form validation
 > Event
+
+////////////////
 > Dynamic DropDown
 > Progress bar
 > Call/Apply
@@ -58,7 +59,8 @@ Ecma 7
 > fabonicci
 > factorial
 > palindrome
-
+> Rest
+> Spread
 
 /////////
 step for package.JSON
